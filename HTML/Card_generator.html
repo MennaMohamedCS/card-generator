@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Generator</title>
+    <link rel="stylesheet" href="../CSS/style.css"/>
+</head>
+<body>
+    <h1>Generate Get Well Soon Card</h1>
+    <div>
+    <img src="../images/gws2.jpg "> <input type="radio" name="photo" value='../images/gws2.jpg' checked/>  
+    <img src="../images/gwsf.jpg" > <input type="radio" name="photo" value='../images/gwsf.jpg'/>
+    <img src="../images/gws3.jpg" > <input type="radio" name="photo" value='../images/gws3.jpg'/><br> 
+    <img src="../images/gwsf2.jpg">  <input type="radio" name="photo"value='../images/gwsf2.jpg'/>
+    <img src="../images/gwsf2.png">  <input type="radio" name="photo"value='../images/gwsf2.png'/>
+    <img src="../images/gwsf3.jpg">  <input type="radio" name="photo"value='../images/gwsf3.jpg'/>
+    </div>
+    <br> <h2>Personal Message</h2>
+    
+    <textarea name="Text1" cols="40" rows="5" id="txt"></textarea><br>
+    <input type="button" id="btn-generate" name="generate" value="generate" onclick="generate()">
+    <script src="../JavaScript/Card-Generator.js"></script>
+</body>
+</html>
